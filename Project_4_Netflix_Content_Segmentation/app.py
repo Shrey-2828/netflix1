@@ -22,7 +22,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="title-banner">🧩 Netflix Content Segmentation & Clustering</div>', unsafe_allow_html=True)
-st.markdown("<p style='color:#aaa;'>Task 4 (Medium) | Unsupervised K-Means & PCA Latent Space Analysis</p>", unsafe_allow_html=True)
 
 models_dir = os.path.join(os.path.dirname(__file__), 'models')
 reports_dir = os.path.join(os.path.dirname(__file__), 'reports')
