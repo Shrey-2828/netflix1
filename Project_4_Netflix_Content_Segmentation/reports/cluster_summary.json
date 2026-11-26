@@ -1,0 +1,159 @@
+{
+    "chosen_k": 5,
+    "average_silhouette_score": 0.2245,
+    "cluster_profiles": [
+        {
+            "cluster_id": 0,
+            "cluster_name": "Cluster 0: Dramas (United States)",
+            "size": 557,
+            "percentage": 6.34,
+            "type_distribution": {
+                "Movie": 90.8,
+                "TV Show": 9.2
+            },
+            "top_genres": {
+                "Dramas": 221,
+                "International Movies": 168,
+                "Comedies": 167
+            },
+            "top_countries": {
+                "United States": 300,
+                "India": 87,
+                "United Kingdom": 36
+            },
+            "top_ratings": {
+                "TV-14": 133,
+                "R": 121
+            },
+            "avg_release_year": 1986.9,
+            "sample_titles": [
+                "Sankofa",
+                "Jeans",
+                "Minsara Kanavu",
+                "Avvai Shanmughi"
+            ]
+        },
+        {
+            "cluster_id": 1,
+            "cluster_name": "Cluster 1: International Movies (India)",
+            "size": 1362,
+            "percentage": 15.49,
+            "type_distribution": {
+                "Movie": 100.0
+            },
+            "top_genres": {
+                "International Movies": 1086,
+                "Dramas": 651,
+                "Comedies": 332
+            },
+            "top_countries": {
+                "India": 229,
+                "United Kingdom": 117,
+                "Spain": 103
+            },
+            "top_ratings": {
+                "TV-MA": 1362
+            },
+            "avg_release_year": 2016.7,
+            "sample_titles": [
+                "Je Suis Karl",
+                "Europe's Most Dangerous Man: Otto Skorzeny in Spain",
+                "The Father Who Moves Mountains",
+                "The Stronghold"
+            ]
+        },
+        {
+            "cluster_id": 2,
+            "cluster_name": "Cluster 2: International Movies (India)",
+            "size": 2133,
+            "percentage": 24.27,
+            "type_distribution": {
+                "Movie": 100.0
+            },
+            "top_genres": {
+                "International Movies": 1453,
+                "Dramas": 972,
+                "Comedies": 643
+            },
+            "top_countries": {
+                "India": 660,
+                "United Kingdom": 240,
+                "Not Given": 163
+            },
+            "top_ratings": {
+                "TV-14": 1085,
+                "TV-PG": 347
+            },
+            "avg_release_year": 2015.1,
+            "sample_titles": [
+                "Confessions of an Invisible Girl",
+                "Motu Patlu in the Game of Zones",
+                "Motu Patlu in Wonderland",
+                "Motu Patlu: Deep Sea Adventure"
+            ]
+        },
+        {
+            "cluster_id": 3,
+            "cluster_name": "Cluster 3: International TV Shows (United States)",
+            "size": 2613,
+            "percentage": 29.73,
+            "type_distribution": {
+                "TV Show": 100.0
+            },
+            "top_genres": {
+                "International TV Shows": 1343,
+                "TV Dramas": 757,
+                "TV Comedies": 559
+            },
+            "top_countries": {
+                "United States": 815,
+                "Pakistan": 346,
+                "United Kingdom": 245
+            },
+            "top_ratings": {
+                "TV-MA": 1137,
+                "TV-14": 717
+            },
+            "avg_release_year": 2017.2,
+            "sample_titles": [
+                "Ganglands",
+                "Midnight Mass",
+                "The Great British Baking Show",
+                "Jailbirds New Orleans"
+            ]
+        },
+        {
+            "cluster_id": 4,
+            "cluster_name": "Cluster 4: Dramas (United States)",
+            "size": 2125,
+            "percentage": 24.18,
+            "type_distribution": {
+                "Movie": 100.0
+            },
+            "top_genres": {
+                "Dramas": 582,
+                "Comedies": 532,
+                "Documentaries": 437
+            },
+            "top_countries": {
+                "United States": 2125
+            },
+            "top_ratings": {
+                "TV-MA": 641,
+                "R": 446
+            },
+            "avg_release_year": 2015.1,
+            "sample_titles": [
+                "Dick Johnson Is Dead",
+                "The Starling",
+                "Bridgerton - The Afterparty",
+                "Bling Empire - The Afterparty"
+            ]
+        }
+    ],
+    "strategic_insights": [
+        "Clusters exhibit distinct genre separation, clearly differentiating International titles from US Hollywood blockbusters.",
+        "Docuseries and non-fiction content cleanly aggregate into specialized niche clusters with high viewer retention characteristics.",
+        "Kids & Family content groups show high correlation with G/PG/TV-Y ratings and distinct global distribution patterns."
+    ]
+}

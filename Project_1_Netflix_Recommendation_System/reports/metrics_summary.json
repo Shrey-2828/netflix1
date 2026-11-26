@@ -1,0 +1,8 @@
+{
+    "evaluation_sample_size": 150,
+    "top_k": 10,
+    "mean_genre_jaccard_similarity": 0.8997,
+    "genre_hit_rate_at_k": 0.9773,
+    "intra_list_diversity": 0.1436,
+    "avg_top_k_similarity_pct": 72.55
+}
