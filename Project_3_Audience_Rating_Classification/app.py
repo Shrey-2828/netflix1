@@ -21,7 +21,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="title-banner">🎯 Netflix Audience Rating Classification</div>', unsafe_allow_html=True)
-st.markdown("<p style='color:#aaa;'>Task 3 (Medium) | Multi-Class Classification & Hyperparameter Tuning (GridSearchCV)</p>", unsafe_allow_html=True)
 
 models_dir = os.path.join(os.path.dirname(__file__), 'models')
 reports_dir = os.path.join(os.path.dirname(__file__), 'reports')
