@@ -24,7 +24,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="title-banner">🎬 Netflix Content Recommendation System</div>', unsafe_allow_html=True)
-st.markdown("<p style='color:#aaa;'>Task 1 (Easy) | NLP TF-IDF Cosine Similarity Engine</p>", unsafe_allow_html=True)
 
 models_dir = os.path.join(os.path.dirname(__file__), 'models')
 reports_dir = os.path.join(os.path.dirname(__file__), 'reports')
